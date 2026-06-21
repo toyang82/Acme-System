@@ -1,8 +1,12 @@
 package ver1;
 
 public class HelloWorld {
-    static void main() {
+    public static void main(String[] args) {
         System.out.println("Hello from IntelliJ");
-        System.out.println("Tony is working locally on his branch");
+    }
+
+    public static void heyNow() {
+        String Msg = "Hey Now!";
+        System.out.println(Msg);
     }
 }
